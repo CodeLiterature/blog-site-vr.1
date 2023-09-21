@@ -1,0 +1,21 @@
+<%- include ('user/head'); %>
+  <section class="container min-vh-100 p-1">
+  <div class="container">
+<h1 class="display-1">Home</h1>
+<p><%= txt %></p>
+
+  </div>
+
+  
+  <% posts.forEach(function (post) { %>
+    <div class="card mb-1">
+  <div class="card-body">
+    <h2 class="card-title"><%= post.titletext%></h2>
+    <p class="card-text"><%= post.contenttext.substring(0, 50) %> ...</p>
+    <a href="/posts/<%= post.titletext %>" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+    <% } )%>
+
+</section>
+<%- include ('user/foot'); %>

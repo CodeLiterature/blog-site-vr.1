@@ -1,0 +1,11 @@
+<%- include ('user/head'); %>
+
+<div class="container container-fluid min-vh-100 d-flex justify-content-center align-items-center flex-column">
+<h1 class="display-5">Compose</h1>
+<form class="w-95 p-1" action="/compose" method="post">
+  <input class="lead mb-1 border border-dark form-control" type="text" name="title" placeholder="Title">
+<textarea class="lead mb-1 border border-dark form-control" name="content" placeholder="Content"></textarea>
+<button type="submit" class="lead btn btn-primary">Publish</button>
+</form>
+</div>
+<%- include ('user/foot'); %>
