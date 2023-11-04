@@ -3,9 +3,9 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 
-const homeStartingContent = "A template blog site by MagiTech. It features dynamic additing of posts. Compose a blog page and post it here.";
-const aboutContent = "Magitech Is An Up And Coming Site In The Field Of Web Designing. Currently The Available Personal Is Able To Create Frontend Of Sites, Upgrade The Old Ones And Provide Consultation Regarding The Websites. Even Though Magitech Is New To The Digital World, It Believes In Progress And Evolution, And Aspires To Stand Among The Recognisable.";
-const contactContent = "Contact us using the links given below in the footer. Alternatively, you can contact us through our email Address: magitech19@gmail.com";
+const homeStartingContent = "A template blog site by CodeLiterature. It features dynamic additing of posts. Compose a blog page and post it here.";
+const aboutContent = "CodeLiterature Is An Up And Coming Site In The Field Of Web Designing. Currently The Available Personal Is Able To Create Frontend Of Sites, Upgrade The Old Ones And Provide Consultation Regarding The Websites. Even Though Magitech Is New To The Digital World, It Believes In Progress And Evolution, And Aspires To Stand Among The Recognisable.";
+const contactContent = "Contact us using the links given below in the footer. Alternatively, you can contact us through our email Address: codeliterature1@gmail.com";
 
 const app = express();
 
